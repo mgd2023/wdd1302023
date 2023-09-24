@@ -2,14 +2,14 @@
 
 :root {
     --primary-color: #74D3AE;
-    --secundary-color: #678D58;
-    --accent1-color: #A6C48A;
+    --secundary-color: #678d58;
+    --accent1-color: #a5c388;
     --accent2-color: #f6e7cb;
 
     --primary-color: #74D3AE;
     --secundary-color: #678D58;
     --accent1-color: #A6C48A;
-    --accent2-color: #f6e7cb
+    --accent2-color: #f6e7cb;
 
     --heading-font: "PT Serif", serif;
     --paragraph-font: 'PT Serif', serif;
