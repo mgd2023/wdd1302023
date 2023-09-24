@@ -2,22 +2,22 @@
 
 :root {
     --primary-color: #74D3AE;
-    --secundary-color: #678d58;
-    --accent1-color: #a5c388;
-    --accent2-color: #f6e7cb;
+    --secundary-color: hsl(103, 23%, 45%);
+    --accent1-color: hsl(91, 33%, 65%);
+    --accent2-color: hsl(39, 70%, 88%);
 
-    --primary-color: #74D3AE;
-    --secundary-color: #678D58;
-    --accent1-color: #A6C48A;
-    --accent2-color: #f6e7cb;
+    --primary-color: hsl(157, 52%, 64%);
+    --secundary-color: hsl(103, 23%, 45%);
+    --accent1-color: hsl(91, 33%, 65%);
+    --accent2-color: hsl(39, 70%, 88%);
 
     --heading-font: "PT Serif", serif;
     --paragraph-font: 'PT Serif', serif;
 
-    --nav-background-color: #f6e7cb;
-    --nav-link-color: #678D58;
-    --nav-hover-link-color: #A6C48A;
-    --nav-hover-blackground-color: #74D3AE;
+    --nav-background-color: hsl(39, 70%, 88%);
+    --nav-link-color: hsl(103, 23%, 45%);
+    --nav-hover-link-color: hsl(91, 33%, 65%);
+    --nav-hover-blackground-color: hsl(157, 52%, 64%);
 }
 
 body {
