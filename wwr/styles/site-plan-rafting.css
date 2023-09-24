@@ -1,23 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap')
 
 :root {
-    --primary-color: #74D3AE;
-    --secundary-color: hsl(103, 23%, 45%);
-    --accent1-color: hsl(91, 33%, 65%);
-    --accent2-color: hsl(39, 70%, 88%);
-
-    --primary-color: hsl(157, 52%, 64%);
-    --secundary-color: hsl(103, 23%, 45%);
-    --accent1-color: hsl(91, 33%, 65%);
-    --accent2-color: hsl(39, 70%, 88%);
+    --primary-color: #413C58;
+    --secundary-color: #A3C4BC;
+    --accent1-color: #BFD7B5; 
+    --accent2-color: #E7EFC5;
 
     --heading-font: 'PT Serif', serif;
     --paragraph-font: 'PT Serif', serif;
 
-    --nav-background-color: hsl(39, 70%, 88%);
-    --nav-link-color: hsl(103, 23%, 45%);
-    --nav-hover-link-color: hsl(91, 33%, 65%);
-    --nav-hover-blackground-color: hsl(157, 52%, 64%);
+    --nav-background-color: #BFD7B5;
+    --nav-link-color: #A3C4BC;
+    --nav-hover-link-color: #E7EFC5;
+    --nav-hover-background-color:  #413C58;
 }
 
 body {
