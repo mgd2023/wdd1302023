@@ -43,6 +43,7 @@ aside {
     padding: 1.5rem;
     background-color: lightblue;
     color: darkblue;
+    position: relative;
 }
 
 aside img {
@@ -68,6 +69,6 @@ footer {
 
 aside h2 {
     position: absolute;
-    top: 2px;
-    left: 2px;
+    top: 10px;
+    left: 10px;
 }
