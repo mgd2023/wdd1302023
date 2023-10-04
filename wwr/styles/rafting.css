@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #160075;
+    --secondary-color: #A3C4BC;
+    --accent1-color: #BFD7B5; 
+    --accent2-color: #E7EFC5;
+
+    --heading-font: 'PT Serif', serif;
+    --paragraph-font: 'PT Serif', serif;
+
+    --nav-background-color: #BFD7B5;
+    --nav-link-color: #A3C4BC;
+    --nav-hover-link-color: #E7EFC5;
+    --nav-hover-background-color: #413C58;
+}
+
+body {
+    max-width: 960px;
+    padding: 1rem;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+div h1 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, .1);
+    padding: 5px;
+    background-color: rgba(23, 104, 141, 0.5);
+    color: rgb(0, 52, 130);
+}
+
+p {
+    color: #130747;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+div article {
+    position: absolute;
+    top: 7rem;
+    border: 2px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: rgba(23, 104, 141, 0.5);
+    color: rgb(121, 135, 156);
+}
+
+div article img {
+    width: 100px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    float: right;
+}
