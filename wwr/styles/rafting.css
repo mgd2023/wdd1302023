@@ -15,6 +15,15 @@
     --nav-hover-background-color: #413C58;
 }
 
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+
 body {
     max-width: 960px;
     padding: 1rem;
@@ -45,6 +54,9 @@ p {
 
 a {
     text-decoration: none;
+    margin: 1rem;
+    flex: 1 1 100%;
+    align-items: center;
 }
 
 .hero {
@@ -72,4 +84,14 @@ div article img {
     border: 1px solid steelblue;
     padding: 2px;
     float: right;
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
