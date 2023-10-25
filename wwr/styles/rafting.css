@@ -84,6 +84,7 @@ div article img {
     border: 1px solid steelblue;
     padding: 2px;
     float: right;
+    color: rgb(0, 0, 128);
 }
 
 footer {
